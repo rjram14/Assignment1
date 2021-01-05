@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="banner.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="event.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   </head>
+   <body>
+    <header class="header ">
+            <nav >
+                <div class="container">      
+                    <ul>
+                        <li id="navbar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 17" width="21" height="17">
+                                <defs>
+                                    <image width="21" height="3" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAADAQMAAABGVtZTAAAAAXNSR0IB2cksfwAAAANQTFRFf39/kMobIwAAAAtJREFUeJxjYEAAAAAMAAF8TETCAAAAAElFTkSuQmCC"/>
+                                    <image width="21" height="3" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAADAQMAAABGVtZTAAAAAXNSR0IB2cksfwAAAANQTFRFf39/kMobIwAAAAtJREFUeJxjYEAAAAAMAAF8TETCAAAAAElFTkSuQmCC"/>
+                                    <image width="21" height="3" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAADAQMAAABGVtZTAAAAAXNSR0IB2cksfwAAAANQTFRFf39/kMobIwAAAAtJREFUeJxjYEAAAAAMAAF8TETCAAAAAElFTkSuQmCC"/>
+                                </defs>
+                                <style>
+                                    tspan { white-space:pre }
+                                </style>
+                                <g id="header">
+                                    <g id="hambuger-icon">
+                                        <use id="Layer 6" href="#img1" x="0" y="0" />
+                                        <use id="Layer 7" href="#img2" x="0" y="7" />
+                                        <use id="Layer 7 copy" href="#img3" x="0" y="14" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </li>
+                        <li ><a><img class="img1"  class="dropbtn" src="images/MENU.png" ></a>
+                           
+                              
+                        </li>
+                        <li><img src="images/twitter (2).png" ></li> 
+                        <li><img src="images/fb.png" ></li> 
+                        <li><img src="images/linked-in.png" ></li>
+                        <li style="position:absolute;margin-left:3%;" ><img src="images/logo.png" ></li>    
+                    </ul>
+                    <ul class="menu">
+                        <li class="menu1 text"><a class="active" href="#home">Home</a></li>
+                        <li class="menu1 text "><a href="#news">About</a></li>
+                        <li class="menu1 text"><a href="#contact">Product</a></li>
+                        <li class="menu1 text"><a href="#about">Events</a></li>
+                        <li class="menu1 text"><a href="#about">Calender</a></li>
+                        <li  class="menu1 text"><a href="#about">Blog</a></li>
+                        <li class="menu1 text"><a href="#about">Contact</a></li>
+                      </ul>
+                </div>
+            </nav>
+    </header> 
+
+   <section >
+       <div >
+           <p class="bg-text banner">Enterprise Marketing and Customer Experience</p>
+           <p class="sm-text banner">LEVERAGE DATA TO DRIVE PERSONALIZATION AT SCALE</p>
+           <img class="btn1" src="./images/btn1 (1).png"><span><img class="btn2" src="./images/btn2.png"></span>
+          
+       </div>
+   </section>
+
+
+   <section class="pic">
+       <div class="t1-text"> THE DIGITAL SAVVY PHARMA MARKETER 2020  </div>
+       <div class="t2-text">“Must have tool for every pharma marketer ”</div>
+       <div ><img class="btn-download" src="./images/download-btn.png"></div>
+   </section>
+
+   <section>
+       <div>company</div>
+       <div>Services</div>
+   </section>
+
+
+
+
+
+    <script>
+        $(".menu").hide();
+                $("#navbar").click(function(){
+        $(".menu").toggle();
+                });
+            </script> 
+   </body>
+
+</html>
+
+
+  
+  

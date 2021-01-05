@@ -1,0 +1,65 @@
+body{
+    background-color:lightgray;
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    overflow-y:scroll;
+}
+
+li {
+    display: inline;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-top: 5px;
+   
+    padding-right: 100px;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: right;  
+  }
+  
+  li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.fb , .twitter ,.linkdin {
+background-color: #ffffff;
+width: 52px;
+height: 52px;
+border-radius: 26px;
+background-color: #c7b197;
+}
+.img1{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+img{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 5px;
+}
+svg {
+    width: 34px;
+    margin-top: 35px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    }
+
+

@@ -1,0 +1,28 @@
+.bg-text{
+font-size: 40px;
+color: #ffffff;
+font-family: "Verdana";
+text-align: center;
+
+}
+
+.sm-text{
+font-size: 22px;
+color: #ffffff;
+font-family: "Verdana";
+text-align: center;
+
+
+}
+.banner{
+    position: relative;
+    top:200px;
+    left: 50px;
+}
+.btn1 , .btn2{
+    position: relative;
+    top:200px;
+    left: 750px;
+}
+
+

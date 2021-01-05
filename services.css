@@ -1,0 +1,33 @@
+.text-services{
+    font-size: 20px;
+color: #e9a3a6;
+font-style: italic;
+font-family: "Verdana";
+}
+.text-company{
+    font-size: 26px;
+color: #000000;
+font-family: "Verdana";
+}
+.layer{
+    width: 115px;
+height: 115px;
+border-radius: 58px;
+background-color: #e9a3a6;
+}
+
+.texts{
+    font-size: 20px;
+color: #000000;
+font-family: "Verdana";
+}
+
+
+.sm-texts{
+    width: 342px;
+height: 122px;
+font-size: 15px;
+color: #e9a3a6;
+font-family: "Verdana";
+}
+

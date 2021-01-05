@@ -1,0 +1,35 @@
+.t1-text{
+font-size: 26px;
+color: #000000;
+font-family: "Verdana";
+position: relative;
+top: 240px;
+left: -300px;
+}
+.t2-text{
+font-size: 26px;
+color:whitesmoke;
+font-family: "Verdana";
+position: relative;
+top: 240px;
+left: -300px;
+}
+
+.pic{
+    height: 700px;
+    background-image: url('./images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 550px;
+}
+.btn-download{
+border: 1px thin black;
+position: relative;
+top: 270px;
+left: -300px;
+font-size: 14px;
+color: #010101;
+font-family: "Verdana";
+
+}
